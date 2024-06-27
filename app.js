@@ -8,8 +8,8 @@ const db=require("./components/db");
 db();
 
 
-// const cors=require("cors")
-// app.use(cors());
+const cors=require("cors")
+app.use(cors());
 
 
 
